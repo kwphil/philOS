@@ -1,0 +1,4 @@
+#prgmfor "OS"
+#filefor "BOOT"
+
+fn void start();
