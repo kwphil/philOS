@@ -1,2 +1,2 @@
 # philOS
-An operating system using Philo at www.github.com/kwphil/philo
+An operating system using [Philo](www.github.com/kwphil/philo)
