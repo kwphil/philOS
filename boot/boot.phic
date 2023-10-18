@@ -4,7 +4,7 @@
 #asm org 0x7c00
 
 #include <io>
-#include <boot>
+#include "%sys%/"
 
 fn:FUNC start() {
     print("Booting!");
