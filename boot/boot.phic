@@ -1,0 +1,15 @@
+#prgmfor "OS"
+#filefor "BOOT"
+#bits 16
+#asm org 0x7c00
+
+#include <io>
+#include <boot>
+
+fn:FUNC start() {
+    print("Booting!");
+    BOOT->switch32();
+    BOOT->loadKBasic(0x1000);
+    print("Loaded kernel!\nLeaving bootloader!");
+    BOOT->jmpout(0x1000);
+}
